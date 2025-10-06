@@ -153,7 +153,6 @@ li {
   color: #1f2937;
   width: 675px;
   font-style: italic;
-  font-weight: 10;
   margin: 10px;
 }
 
@@ -162,4 +161,54 @@ li {
   justify-content: flex-end;
   margin-right: 20px;
   font-size: 16px;
+  font-weight: 900;
+}
+
+.call_to_action_bar {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta_text {
+  margin-left: 100px;
+}
+
+.sign_up_button {
+  margin-right: 100px;
+  border: solid;
+  border-color: white;
+}
+
+.CTA_quote {
+  font-size: 24px;
+  color: white;
+  font-weight: 900;
+}
+
+.CTA_description {
+  font-size: 12px;
+  color: white;
+}
+
+.text_button {
+  display: flex;
+  flex-direction: row;
+  background-color: #3882f6;
+  height: 125px;
+  width: 1200px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  height: 75px;
+  background-color: #1f2937;
+  color: white;
+  align-items: center;
 }
